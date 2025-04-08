@@ -28,6 +28,10 @@ We use **isogeny-based cryptography** (post-quantum secure) and **graph neural n
 ├── utils/              # Tools for encryption, graph building, etc.
 ├── notebooks/          # Research + demo notebooks
 ├── docs/               # Technical documentation
+├── .github/            # PR templates, issue templates
+├── CONTRIBUTING.md     # How to contribute
+├── CODE_OF_CONDUCT.md  # Collaboration guidelines
+├── roadmap.md          # Project vision and goals
 └── README.md           # Project intro and contribution guide
 ```
 
@@ -45,7 +49,7 @@ PrivNet.AI introduces a new paradigm: **Train on encrypted data. Analyze graphs 
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/chimans/privnet-ai.git
+git clone https://github.com/YOUR-USER/privnet-ai.git
 cd privnet-ai
 ```
 
@@ -71,22 +75,45 @@ jupyter notebook notebooks/demo_secure_gnn.ipynb
 ---
 
 ## 👥 How to Contribute
-We are looking for contributors in the following areas:
-- Cryptography (especially ECC, isogenies, PQCrypto)
-- Deep learning (GNNs, PyTorch Geometric)
-- Math/Algebra background (for encoding & graphs)
-- Python, ML engineering, DevOps
+We welcome contributions from cryptographers, ML engineers, researchers, and developers.
 
-**Steps to contribute:**
+### Ways to contribute:
+- Build core GNN modules or crypto components
+- Suggest ideas and improve documentation
+- Review or test notebooks and demos
+- Translate or improve accessibility
+
+### 📌 Contribution checklist:
 1. Fork this repo
-2. Create a new branch
-3. Commit your changes
-4. Open a pull request
+2. Create a new feature branch: `git checkout -b feature/your-feature`
+3. Make your changes with clear commits
+4. Open a pull request and fill out the PR template
+
+### Pull Request Template:
+```markdown
+### What does this PR do?
+- Clearly explain your update/fix
+
+### Checklist:
+- [ ] My code follows the project style
+- [ ] I’ve tested this locally
+- [ ] I linked any related Issue
+```
 
 ---
 
-## 🧪 Project Status
-We’re in early development — building the prototype phase (crypto backend + GNN inference on encrypted graphs).
+## 📍 Project Status
+We’re in early development — building the prototype (crypto backend + GNN inference on encrypted graphs).
+Use `Issues` to suggest features or `Discussions` to brainstorm with us.
+
+---
+
+## 🗺️ Roadmap Highlights (see `roadmap.md` for full list)
+- [x] Repo bootstrapping & structure setup
+- [ ] Crypto layer: isogeny encryption modules (basic)
+- [ ] GNN core on synthetic data
+- [ ] Privacy-preserving inference pipeline
+- [ ] MVP deployment + cloud interface
 
 ---
 
@@ -96,9 +123,10 @@ MIT License — free to use, modify, and contribute.
 ---
 
 ## ✨ Contact & Community
-Create a GitHub Issue or join the future Discord/Matrix community to discuss ideas, bugs, or papers.
+- File GitHub Issues or PRs
+- Community chat (coming soon: Discord/Matrix)
+- Follow `roadmap.md` for what's coming next
 
 Let's build privacy-native AI together.
 
 — The PrivNet.AI team
-
