@@ -45,7 +45,7 @@ PrivNet.AI introduces a new paradigm: **Train on encrypted data. Analyze graphs 
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR-USER/privnet-ai.git
+git clone https://github.com/chimans/privnet-ai.git
 cd privnet-ai
 ```
 
