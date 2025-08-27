@@ -1,0 +1,9 @@
+torch>=2.6
+torch_geometric>=2.5
+numpy>=1.26
+networkx>=3.2
+matplotlib>=3.8
+scikit-learn>=1.4
+tqdm>=4.66
+jupyter>=1.0
+rich>=13.7
